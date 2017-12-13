@@ -1,12 +1,9 @@
-box: node:8.9
+box: 
+  node: 8.9
 
 deploy:
   steps:
-    - 
-      npm-install
-
-    -
-      script:
+    - script:
         name: webpack
         code: npm run webpack
         cwd: tutorial/frontend
