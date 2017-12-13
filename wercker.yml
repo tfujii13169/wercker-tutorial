@@ -1,10 +1,10 @@
-box: 
-  node: 8.9
+box: node
 
 build:
   steps:
     - npm-install
     - script:
-        name: webpack
-        code: npm run webpack
         cwd: tutorial/frontend
+        name: webpack
+        code: |
+          npm run webpack
