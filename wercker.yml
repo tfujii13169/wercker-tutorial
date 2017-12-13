@@ -3,7 +3,7 @@ box:
 
 build:
   steps:
-    - node_install
+    - npm-install
     - script:
         name: webpack
         code: npm run webpack
