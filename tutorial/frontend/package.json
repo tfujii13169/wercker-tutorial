@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "npm run wercker tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --optimize-minimize",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "fujii_ta",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
