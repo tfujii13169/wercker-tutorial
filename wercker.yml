@@ -1,8 +1,9 @@
 box: 
   node: 8.9
 
-deploy:
+build:
   steps:
+    - node_install
     - script:
         name: webpack
         code: npm run webpack
