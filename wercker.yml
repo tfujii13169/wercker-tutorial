@@ -4,7 +4,7 @@ box:
 build:
   steps:
     - npm-install
-      cwd: tutorial/frontend
+
     - script:
       name: webpack
       code: npm run webpack
