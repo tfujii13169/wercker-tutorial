@@ -1,0 +1,12 @@
+box:
+  node: 8.9.0
+
+deploy:
+  steps:
+    - npm-install
+      cwd: tutorial/frontend
+
+    - script:
+      name: webpack
+      code: npm run webpack
+      cwd: tutorial/frontend
